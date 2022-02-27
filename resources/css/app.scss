@@ -1,1 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
+
+#banner-article {
+    background-image: url('/images/banner.jpeg');
+    min-height: 750px;
+    background-size: cover;
+}

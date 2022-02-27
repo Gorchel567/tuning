@@ -10,9 +10,9 @@
 </head>
 <body>
     @include('layout.header')
-    
+
     @yield('content')
-    
+
     @include('layout.footer')
 
     <script src="/js/app.js?{{time()}}"></script>

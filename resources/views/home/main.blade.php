@@ -1,9 +1,8 @@
 @extends('layout')
 
 @section("content")
-    <div class="container">
-        <div class="row">
-
-        </div>
-    </div>
+     @include("home.nav")
+     @include("home.banner")
+     @include("home.advantages")
+     @include("home.prices")
 @overwrite
