@@ -1,7 +1,50 @@
 @import "~bootstrap/scss/bootstrap";
 
+#nav-block {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav-block a {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+#nav-block a:hover {
+    color: #ff4c30;
+}
+
 #banner-article {
     background-image: url('/images/banner.jpeg');
     min-height: 750px;
     background-size: cover;
+}
+
+#prices-article .card {
+    text-align: center;
+}
+
+#advanteges-article {
+    background-color: #f5f5f5;
+}
+
+#advanteges-article .advanteges-wrapper {
+    padding: 15px;
+}
+
+#advanteges-article .advanteges-block {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    min-height: 150px;
+    margin-bottom: 15px;
+
+    background-size: cover;
+}
+
+.article-block {
+    padding-top: 75px;
+    padding-bottom: 60px;
+    text-align: center;
 }

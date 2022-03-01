@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container" id="nav-block">
     <div class="row">
-        <nav>
-            <a href="/prices" class="">
+        <nav class="text-center">
+            <a href="#advanteges-article" class="">
                 Услуги и Цены
             </a><a href="/news" class="">
                 Статьи
