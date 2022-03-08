@@ -3,7 +3,7 @@
         <h2 class="text-center article-header">Цены</h2>
         <div class="row">
             <div class="col-6">
-                <div class="card" style="background-image: url('/images/advanteges-one-one.png'); background-size: cover">
+                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Lada</p>
                     <div class="row card-body min-h-230">
                         <div class="col-6">
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="card" style="background-image: url('/images/advanteges-one-one.png'); background-size: cover">
+                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Renault</p>
                     <div class="row card-body min-h-230">
                         <div class="col-6">
@@ -50,7 +50,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="card" style="background-image: url('/images/advanteges-one-one.png'); background-size: cover">
+                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Hyundai</p>
                     <div class="row card-body min-h-230">
                         <div class="col-12">
@@ -67,7 +67,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="card" style="background-image: url('/images/advanteges-one-one.png'); background-size: cover">
+                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Kia</p>
                     <div class="row card-body min-h-230">
                         <div class="col-12">
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="card" style="background-image: url('/images/advanteges-one-one.png'); background-size: cover">
+                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Volkswagen</p>
                     <div class="row card-body min-h-230">
                         <div class="col-12">
@@ -103,15 +103,13 @@
                 </div>
             </div>
             <div class="col-3">
-                <div class="card" style="background-image: url('/images/advanteges-one-one.png'); background-size: cover">
+                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Skoda</p>
                     <div class="row card-body min-h-230">
                         <div class="col-12">
-                            <ul>
-                                <li>Rapid</li>
-                                <li>Octavia</li>
-                                <li>Kodiaq</li>
-                            </ul>
+                            <p>Rapid</p>
+                            <p>Octavia</p>
+                            <p>Kodiaq</p>
                         </div>
                     </div>
                     <div class="row card-body">

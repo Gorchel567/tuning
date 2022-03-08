@@ -21175,12 +21175,14 @@ textarea.form-control-lg {
   border-top: 3px solid rgba(254, 26, 76, 0.5);
   font-size: 25px;
   padding-top: 10px;
+  font-weight: 900;
 }
 
 #prices-article .card-body p {
   font-size: 20px;
+  font-weight: 900;
 }
 
 .min-h-230 {
-  min-height: 230px;
+  min-height: 265px;
 }
