@@ -1,8 +1,21 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~font-awesome/scss/font-awesome";
+@import '~bootstrap-icons';
+
+$logo-red-color: #fe1a4c;
+$logo-red-color-opacity: rgba(254,26,76,0.5);
+$logo-white-color-opacity: rgba(255,255,255,0.5);
 
 #nav-block {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+#nav-block a:before {
+    content: "\f105";
+    font-family: "FontAwesome";
+    color: $logo-red-color;
+    margin-right: 7px;
 }
 
 #nav-block a {
@@ -16,9 +29,49 @@
 }
 
 #banner-article {
-    background-image: url('/images/banner.jpeg');
+    background-image: url('/images/banner.png');
     min-height: 750px;
     background-size: cover;
+}
+
+#banner-article #banner-btn-block {
+    padding-top: 60px;
+}
+
+#banner-article #banner-block {
+    padding: 30px;
+    padding-top: 70px;
+    color: white;
+}
+
+#banner-article #banner-block img {
+    width: 100%;
+}
+
+.red-btn {
+    border: 5px solid $logo-red-color;
+    background-color: $logo-red-color-opacity;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.red-btn:hover {
+    background-color: $logo-red-color;
+    color: white;
+}
+
+#banner-article #banner-block h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+#banner-article #banner-block p {
+    font-size: 30px;
+    margin: 20px 0px 50px 0px;
 }
 
 #prices-article .card {
@@ -39,7 +92,6 @@
     padding: 30px;
     min-height: 150px;
     margin-bottom: 15px;
-
     background-size: cover;
 }
 
@@ -48,3 +100,35 @@
     padding-bottom: 60px;
     text-align: center;
 }
+
+.article-header {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#prices-article .card {
+    color: white;
+    margin-bottom: 15px;
+}
+
+#prices-article .card-header {
+    background-color: $logo-white-color-opacity;
+    color: #242324;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#prices-article .card-footer {
+    border-top: 3px solid $logo-red-color-opacity;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#prices-article .card-body p {
+    font-size: 20px;
+}
+
+.min-h-230 {
+    min-height: 230px;
+}
+

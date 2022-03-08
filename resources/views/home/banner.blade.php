@@ -1,13 +1,18 @@
 <article id="banner-article">
-    <div class="container">
+    <div class="container" id="banner-block">
         <div class="row">
-            <h2>СДЕЛАЕМ ВАШ АВТОМОБИЛЬ ДИНАМИЧНЫМ С ГАРАНТИЕЙ!</h2>
-            <p>Без вреда для двигателя, увеличние мощности до 30%, бесплатный выезд специалиста, сохранение гарантии! От 2490р!</p>
+            <div class="col-4">
+                <img src="/images/logo/logo-light.png" alt="">
+            </div>
         </div>
         <div class="row">
-            <div class="col">
-                <button class="btn btn-danger">Позвонить</button>
-                <button class="btn btn-danger">Оставить заявку</button>
+            <h2 class="text-center">СДЕЛАЕМ ВАШ АВТОМОБИЛЬ ДИНАМИЧНЫМ С ГАРАНТИЕЙ!</h2>
+            <p class="text-center">Без вреда для двигателя, увеличние мощности до 30%, бесплатный выезд специалиста, сохранение гарантии! От 2490р!</p>
+        </div>
+        <div class="row">
+            <div class="col text-center" id="banner-btn-block">
+                <button class="btn red-btn">Позвонить</button>
+                <button class="btn red-btn">Оставить заявку</button>
             </div>
         </div>
     </div>

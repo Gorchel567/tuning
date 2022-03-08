@@ -1,6 +1,6 @@
 <article id="advanteges-article" class="article-block">
     <div class="container">
-        <h2 class="text-center">Преимущества</h2>
+        <h2 class="text-center article-header">Преимущества</h2>
         <div class="row">
             <div class="col-4 advanteges-wrapper">
                 <div></div>
@@ -40,6 +40,7 @@
                 </div>
             </div>
         </div>
+        @include('home.request')
     </div>
 {{--    Оставить заявку--}}
 </article>
