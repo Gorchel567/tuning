@@ -6,7 +6,7 @@
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Lada</p>
                     <div class="row card-body min-h-230">
-                        <div class="col-6">
+                        <div class="col-6 right-line">
                             <p>Vesta</p>
                             <p>Xray</p>
                             <p>Largus</p>
@@ -29,7 +29,7 @@
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Renault</p>
                     <div class="row card-body min-h-230">
-                        <div class="col-6">
+                        <div class="col-6 right-line">
                             <p>Duster</p>
                             <p>Kaptur</p>
                         </div>
