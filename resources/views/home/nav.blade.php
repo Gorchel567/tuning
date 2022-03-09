@@ -5,7 +5,7 @@
         </div>
         <div class="col-10">
             <nav class="text-center">
-                <a href="#advanteges-article" class="">
+                <a href="/prices" class="">
                     Услуги и Цены
                 </a><a href="/news" class="">
                     Статьи
@@ -13,7 +13,7 @@
                     Отзывы
                 </a><a href="/#" class="">
                     Вопросы и ответы
-                </a><a href="/contacts" class="">
+                </a><a href="#footer" class="">
                     Контакты
                 </a>
             </nav>
