@@ -11,8 +11,8 @@
         </div>
         <div class="row">
             <div class="col text-center" id="banner-btn-block">
-                <button class="btn red-btn">Позвонить</button>
-                <button class="btn red-btn">Оставить заявку</button>
+                @include('home.call-btn')
+                @include('home.request-btn')
             </div>
         </div>
     </div>

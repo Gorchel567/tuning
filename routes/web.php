@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'App\Http\Controllers\HomeController@index');
+Route::post('/send', 'App\Http\Controllers\HomeController@send');
 Route::get('/news', 'App\Http\Controllers\NewsController@index');

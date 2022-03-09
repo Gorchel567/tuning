@@ -18,4 +18,13 @@ class HomeController extends Controller
     {
         return view('home.main');
     }
+
+    /**
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
+     */
+    public function send(Request $request)
+    {
+        return redirect('/');
+    }
 }

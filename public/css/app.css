@@ -21105,14 +21105,41 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-.red-btn {
-  border: 5px solid #fe1a4c;
-  background-color: rgba(254, 26, 76, 0.5);
+.custom-btn {
+  border-width: 5px;
+  border-style: solid;
   color: white;
   font-size: 20px;
   padding: 10px 20px;
   margin-right: 20px;
   margin-top: 20px;
+}
+
+.red-btn {
+  border-color: #fe1a4c;
+  background-color: rgba(254, 26, 76, 0.5);
+}
+
+.black-btn {
+  border-color: #5f6265;
+  color: #5f6265;
+}
+
+.black-btn:hover {
+  background-color: #5f6265;
+  color: white;
+}
+
+.sm-btn {
+  font-size: 16px;
+  padding: 8px 16px;
+  margin-right: 15px;
+  margin-top: 16px;
+}
+
+.custom-btn a {
+  text-decoration: none;
+  color: white;
 }
 
 .red-btn:hover {
@@ -21214,4 +21241,42 @@ footer a:hover {
 
 .mg-t-25 {
   margin-top: 25px;
+}
+
+.red-border {
+  border-color: rgba(254, 26, 76, 0.5);
+  border-width: 2px;
+}
+
+.black-border {
+  border-color: #5f6265;
+  border-width: 2px;
+}
+
+.modal-content {
+  padding: 5px 15px;
+}
+
+.red-input {
+  border: 5px solid rgba(254, 26, 76, 0.5);
+}
+
+.black-input {
+  border: 5px solid #5f6265;
+}
+
+.custom-input {
+  font-size: 16px;
+  padding: 10px;
+}
+
+#request-modal .form-group {
+  margin-bottom: 15px;
+}
+
+#request-modal label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
