@@ -21068,7 +21068,7 @@ textarea.form-control-lg {
   width: 100%;
 }
 
-#nav-block a:before {
+#nav-block nav a:before {
   content: "\f105";
   font-family: "FontAwesome";
   color: #fe1a4c;

@@ -17,7 +17,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
     width: 100%;
 }
 
-#nav-block a:before {
+#nav-block nav a:before {
     content: "\f105";
     font-family: "FontAwesome";
     color: $logo-red-color;

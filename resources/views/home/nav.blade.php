@@ -1,7 +1,7 @@
 <div class="container" id="nav-block">
     <div class="row">
         <div class="col-2">
-            <img src="/images/logo/logo-black.png" alt="">
+            <a href="/"><img src="/images/logo/logo-black.png" alt=""></a>
         </div>
         <div class="col-10">
             <nav class="text-center">
