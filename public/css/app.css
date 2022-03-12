@@ -21284,3 +21284,7 @@ footer a:hover {
 #prices-table .text-bold {
   font-weight: 700;
 }
+
+#news-page img {
+  width: 100%;
+}

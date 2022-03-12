@@ -9,7 +9,7 @@
                     Услуги и Цены
                 </a><a href="/news" class="">
                     Статьи
-                </a><a href="/otzyvy" class="">
+                </a><a href="/reviews" class="">
                     Отзывы
                 </a><a href="/#" class="">
                     Вопросы и ответы
