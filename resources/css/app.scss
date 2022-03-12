@@ -234,6 +234,34 @@ footer a:hover {
     font-weight: 700;
 }
 
-#news-page img {
-    width: 100%;
+.news-block img {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.news-block {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: $back-grey;
+}
+
+.news-block > .col {
+    padding-left: 0px;
+}
+
+.news-block a {
+    text-decoration: none;
+    color: black;
+}
+
+.news-block:hover {
+    background-color: #efecec;
+}
+
+.news-block .news-block-date {
+    color: $logo-red-color;
+    font-size: 14px;
+}
+
+.p-top-15 {
+    padding-top: 15px;
 }

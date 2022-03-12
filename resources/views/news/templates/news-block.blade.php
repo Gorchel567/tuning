@@ -1,13 +1,15 @@
-<div class="row">
+<div class="row news-block">
     <div class="col">
         <a href="/news/{{$newsRecord->id}}" class="row">
             <div class="col-3">
-                <img src="{{$newsRecord->url}}" alt="">
+                <img src="{{$newsRecord->url}}" alt="" class="w-100">
             </div>
-            <div class="col-9">
-                <h4>{{$newsRecord->title}}</h4>
-                <p>{{$newsRecord->created_at}}</p>
-                <p>{{$newsRecord->getShortText()}}</p>
+            <div class="col-9 p-top-15">
+                <h4 class="news-block-header">{{$newsRecord->title}}</h4>
+                <p class="news-block-date">
+                    <i>{{$newsRecord->created_at}}</i>
+                </p>
+                <p class="news-block-text">{{$newsRecord->getShortText()}}</p>
             </div>
         </a>
     </div>
