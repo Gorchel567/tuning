@@ -2,10 +2,10 @@
     <div class="container">
         <h2 class="text-center article-header">Цены</h2>
         <div class="row">
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Lada</p>
-                    <div class="row card-body min-h-230">
+                    <div class="row card-body min-price-height">
                         <div class="col-6 right-line">
                             <p>Vesta</p>
                             <p>Xray</p>
@@ -25,10 +25,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Renault</p>
-                    <div class="row card-body min-h-230">
+                    <div class="row card-body min-price-height">
                         <div class="col-6 right-line">
                             <p>Duster</p>
                             <p>Kaptur</p>
@@ -49,10 +49,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Hyundai</p>
-                    <div class="row card-body min-h-230">
+                    <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Solaris</p>
                             <p>Creta</p>
@@ -66,10 +66,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Kia</p>
-                    <div class="row card-body min-h-230">
+                    <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Rio</p>
                             <p>Optima</p>
@@ -84,10 +84,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Volkswagen</p>
-                    <div class="row card-body min-h-230">
+                    <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Polo</p>
                             <p>Jetta</p>
@@ -102,10 +102,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-6 col-md-3">
                 <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
                     <p class="card-header">Skoda</p>
-                    <div class="row card-body min-h-230">
+                    <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Rapid</p>
                             <p>Octavia</p>

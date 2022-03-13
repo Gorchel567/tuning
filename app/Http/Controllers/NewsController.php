@@ -20,7 +20,7 @@ class NewsController extends Controller
     {
         $news = News::select(['id', 'url', 'title', 'text', 'created_at'])
             ->orderBy('created_at', 'desc')
-            ->simplePaginate();
+            ->simplePaginate(10);
 
         return view('news.main', [
             'news' => $news
