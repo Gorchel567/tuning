@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
-@import "~font-awesome/scss/font-awesome";
+@import '~@fortawesome/fontawesome-free/css/fontawesome';
+@import '~@fortawesome/fontawesome-free/css/regular';
+@import '~@fortawesome/fontawesome-free/css/solid';
+@import '~@fortawesome/fontawesome-free/css/brands';
 @import '~bootstrap-icons';
 
 $logo-red-color: #fe1a4c;
@@ -149,10 +152,6 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
     border-right: 3px solid $logo-red-color-opacity;
 }
 
-#advanteges-article {
-    background-color: $back-grey;
-}
-
 #advanteges-article .advanteges-wrapper {
     padding: 15px;
     font-size: 30px;
@@ -162,11 +161,20 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 
 #advanteges-article .advanteges-block {
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: $back-grey;
     padding: 30px;
-    min-height: 150px;
+    min-height: 250px;
     margin-bottom: 15px;
     background-size: cover;
+}
+
+#advanteges-article .advanteges-block p {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+#advanteges-article .advanteges-block.black {
+    color: black;
 }
 
 .article-block {
@@ -205,6 +213,10 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 .article-header {
     font-size: 40px;
     margin-bottom: 50px;
+}
+
+#prices-article {
+    background-color: $back-grey;
 }
 
 #prices-article .card {
