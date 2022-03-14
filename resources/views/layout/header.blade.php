@@ -20,7 +20,7 @@
                     </ul>
                 </div>
                 <div class="col-md-auto nav_date">
-                    <span><b class="b_nav_date">8(812)980-58-66</b><br>Пн-Вс 09:00-21:00 </span>
+                    <span><b class="b_nav_date"><a href=""></a>8(812)980-58-66</b>Пн-Вс 09:00-21:00 </span>
 
                 </div>
                 <div class="col-md-auto">
