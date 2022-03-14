@@ -15,6 +15,7 @@
     @yield('content')
 
     @include('layout.footer')
+    @include("templates.modals")
 
     <script src="/js/app.js?{{time()}}"></script>
 </body>

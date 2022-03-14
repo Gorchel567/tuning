@@ -15,5 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\HomeController@index');
 Route::post('/send', 'App\Http\Controllers\HomeController@send');
+//Route::get('/reviews', 'App\Http\Controllers\NewsController@index');
+//Route::get('/review/{id}', 'App\Http\Controllers\NewsController@view');
 Route::get('/news', 'App\Http\Controllers\NewsController@index');
+Route::get('/news/{id}', 'App\Http\Controllers\NewsController@view');
 Route::get('/prices', 'App\Http\Controllers\PriceController@index');

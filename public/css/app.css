@@ -21158,6 +21158,39 @@ textarea.form-control-lg {
   margin: 20px 0px 50px 0px;
 }
 
+@media (max-width: 992px) {
+  #banner-article #banner-block h2, #banner-article #banner-block .h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  #banner-article #banner-block p {
+    font-size: 25px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  #banner-article #banner-btn-block {
+    padding-top: 50px;
+  }
+
+  .custom-btn {
+    border-width: 4px;
+    font-size: 18px;
+    padding: 6px 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  #banner-article {
+    min-height: 400px;
+    padding: 50px 0px 50px 0px;
+  }
+
+  #banner-article #banner-block {
+    padding: 15px;
+  }
+}
 #prices-article .card {
   text-align: center;
 }
@@ -21172,6 +21205,9 @@ textarea.form-control-lg {
 
 #advanteges-article .advanteges-wrapper {
   padding: 15px;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
 }
 
 #advanteges-article .advanteges-block {
@@ -21189,6 +21225,31 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+@media (max-width: 992px) {
+  #advanteges-article .advanteges-wrapper {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  #advanteges-article .advanteges-block {
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #advanteges-article .advanteges-wrapper {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  #advanteges-article .advanteges-block {
+    padding: 20px 10px;
+  }
+
+  .article-block {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
 .article-header {
   font-size: 40px;
   margin-bottom: 50px;
@@ -21218,10 +21279,27 @@ textarea.form-control-lg {
   font-weight: 900;
 }
 
-.min-h-230 {
+.min-price-height {
   min-height: 265px;
 }
 
+@media (max-width: 992px) {
+  #prices-article .card-header {
+    font-size: 20px;
+  }
+
+  #prices-article .card-body p {
+    font-size: 18px;
+  }
+
+  #prices-article .card-footer {
+    font-size: 20px;
+  }
+
+  .min-price-height {
+    min-height: 210px;
+  }
+}
 footer {
   background-color: #f5f5f5;
   padding: 25px;
@@ -21315,4 +21393,36 @@ footer a:hover {
 
 .nav_adress {
   text-align: center;
+}
+
+.news-block img {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.news-block {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.news-block > .col {
+  padding-left: 0px;
+}
+
+.news-block a {
+  text-decoration: none;
+  color: black;
+}
+
+.news-block:hover {
+  background-color: #efecec;
+}
+
+.news-block .news-block-date {
+  color: #fe1a4c;
+  font-size: 14px;
+}
+
+.p-top-15 {
+  padding-top: 15px;
 }
