@@ -21363,35 +21363,42 @@ footer a:hover {
   font-weight: 700;
 }
 
-.nav_button {
+.nav-button {
   margin-top: -10px;
 }
 
-.nav_icons {
+.nav-icons {
+  margin-top: 15px;
+  margin-left: 250px;
   justify-content: center;
 }
 
-.nav_info {
+.nav-info {
   margin-top: 10px;
   padding-right: 20px;
   text-align: center;
 }
 
-.nav_date {
-  padding-top: 10px;
+.nav-street {
+  margin-bottom: 0px;
+}
+
+.nav-date {
+  margin-top: 10px;
+  margin-left: 150px;
   text-align: center;
 }
 
-.b_nav_date {
+.b-nav-date {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.nav_city {
-  font-size: 25px;
+.nav-city {
+  font-size: 20px;
 }
 
-.nav_adress {
+.nav-address {
   text-align: center;
 }
 
