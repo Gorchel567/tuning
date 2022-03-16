@@ -27208,6 +27208,7 @@ readers do not read off random characters that represent icons */
 #nav-block {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 70px;
 }
 
 #nav-block img {
@@ -27342,7 +27343,7 @@ readers do not read off random characters that represent icons */
 }
 
 #prices-article .right-line {
-  border-right: 3px solid rgba(254, 26, 76, 0.5);
+  border-right: 3px solid #5f6265;
 }
 
 #advanteges-article .advanteges-wrapper {
@@ -27428,22 +27429,31 @@ readers do not read off random characters that represent icons */
 }
 
 #prices-article .card {
-  color: white;
   margin-bottom: 15px;
 }
 
 #prices-article .card-header {
-  background-color: rgba(255, 255, 255, 0.5);
   color: #242324;
   font-weight: 800;
   font-size: 25px;
+  min-height: 110px;
+}
+#prices-article .card-header img {
+  width: 80px;
+}
+#prices-article .card-header img.medium-logo {
+  width: 120px;
+}
+#prices-article .card-header img.big-logo {
+  width: 150px;
 }
 
 #prices-article .card-footer {
-  border-top: 3px solid rgba(254, 26, 76, 0.5);
+  border-top: 3px solid #5f6265;
   font-size: 25px;
   padding-top: 10px;
   font-weight: 900;
+  background-color: white;
 }
 
 #prices-article .card-body p {
@@ -27456,8 +27466,27 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 992px) {
+  .article-header {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .article-block {
+    padding-top: 20px;
+  }
+
   #prices-article .card-header {
     font-size: 20px;
+    min-height: 80px;
+  }
+  #prices-article .card-header img {
+    width: 40px;
+  }
+  #prices-article .card-header img.medium-logo {
+    width: 80px;
+  }
+  #prices-article .card-header img.big-logo {
+    width: 110px;
   }
 
   #prices-article .card-body p {
@@ -27537,7 +27566,6 @@ footer a:hover {
 }
 
 .nav-icons {
-  margin-left: 250px;
   justify-content: center;
 }
 
@@ -27549,6 +27577,10 @@ footer a:hover {
 
 .nav-street {
   margin-bottom: 0px;
+}
+
+#main-navbar {
+  border-bottom: 2px solid #dbdada;
 }
 
 #main-navbar .nav-date {
@@ -27649,4 +27681,8 @@ footer a:hover {
 
 .w-200 {
   width: 200px;
+}
+
+.p-t-20 {
+  padding-top: 20px;
 }

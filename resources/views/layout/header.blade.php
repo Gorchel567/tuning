@@ -1,9 +1,9 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="main-navbar">
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="main-navbar">
     <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMobile" aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand d-lg-none" href="/"><img class="w-200" src="/images/logo/logo-black.png" alt=""></a>
+        <a class="navbar-brand" href="/"><img class="w-200" src="/images/logo/logo-black.png" alt=""></a>
         <div class="collapse navbar-collapse" id="navbarMobile">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-before-icon d-lg-none">
                 <li class="nav-item">
@@ -26,20 +26,15 @@
                 <span class="nav-city">г.Санкт-Петербург,</span>
                 <p class="nav-street">Софийская д.14</p>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-3">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-icons">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#" target="_blank">
+                        <a class="nav-link" aria-current="page" href="https://www.youtube.com/channel/UC22oaubQoGRgTaOZHNkcolw" target="_blank">
                             <i class="fa-brands fa-youtube fa-2x" aria-hidden="true"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"  target="_blank">
-                            <i class="fa-brands fa-instagram fa-2x" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true" target="_blank">
+                        <a class="nav-link" href="https://vk.com/chipograf" tabindex="-1" aria-disabled="true" target="_blank">
                             <i class="fa-brands fa-vk fa-2x" aria-hidden="true"></i>
                         </a>
                     </li>

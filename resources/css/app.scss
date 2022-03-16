@@ -14,6 +14,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 #nav-block {
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 70px;
 }
 
 #nav-block img {
@@ -149,7 +150,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 }
 
 #prices-article .right-line {
-    border-right: 3px solid $logo-red-color-opacity;
+    border-right: 3px solid $light-black;
 }
 
 #advanteges-article .advanteges-wrapper {
@@ -237,22 +238,34 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 }
 
 #prices-article .card {
-    color: white;
     margin-bottom: 15px;
 }
 
 #prices-article .card-header {
-    background-color: $logo-white-color-opacity;
     color: #242324;
     font-weight: 800;
     font-size: 25px;
+    min-height: 110px;
+
+    img {
+        width: 80px;
+    }
+
+    img.medium-logo {
+        width: 120px;
+    }
+
+    img.big-logo {
+        width: 150px;
+    }
 }
 
 #prices-article .card-footer {
-    border-top: 3px solid $logo-red-color-opacity;
+    border-top: 3px solid $light-black;
     font-size: 25px;
     padding-top: 10px;
     font-weight: 900;
+    background-color: white;
 }
 
 #prices-article .card-body p {
@@ -265,8 +278,30 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 }
 
 @media (max-width: 992px) {
+    .article-header {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .article-block {
+        padding-top: 20px;
+    }
+
     #prices-article .card-header {
         font-size: 20px;
+        min-height: 80px;
+
+        img {
+            width: 40px;
+        }
+
+        img.medium-logo {
+            width: 80px;
+        }
+
+        img.big-logo {
+            width: 110px;
+        }
     }
 
     #prices-article .card-body p {
@@ -347,7 +382,6 @@ footer a:hover {
 }
 
 .nav-icons {
-    margin-left: 250px;
     justify-content: center;
 }
 
@@ -358,6 +392,10 @@ footer a:hover {
 }
 .nav-street {
     margin-bottom: 0px;
+}
+
+#main-navbar {
+    border-bottom: 2px solid #dbdada;
 }
 
 #main-navbar .nav-date {
@@ -463,3 +501,6 @@ footer a:hover {
     width: 200px;
 }
 
+.p-t-20 {
+    padding-top: 20px;
+}
