@@ -22,7 +22,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 
 #nav-block nav a:before {
     content: "\f105";
-    font-family: "FontAwesome";
+    font: var(--fa-font-solid);
     color: $logo-red-color;
     margin-right: 7px;
 }
@@ -159,11 +159,15 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
     color: white;
 }
 
+#advanteges-article .advanteges-block i {
+    color: #fe1a4c;
+}
+
 #advanteges-article .advanteges-block {
     border-radius: 20px;
     background-color: $back-grey;
     padding: 30px;
-    min-height: 250px;
+    min-height: 300px;
     margin-bottom: 15px;
     background-size: cover;
 }
@@ -171,6 +175,10 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 #advanteges-article .advanteges-block p {
     padding-top: 15px;
     margin-top: 15px;
+}
+
+#advanteges-article .advanteges-block p.p-t-40 {
+    padding-top: 40px;
 }
 
 #advanteges-article .advanteges-block.black {
@@ -202,11 +210,20 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 
     #advanteges-article .advanteges-block {
         padding: 20px 10px;
+        min-height: 150px;
     }
 
     .article-block {
         padding-top: 50px;
         padding-bottom: 30px;
+    }
+
+    #advanteges-article .advanteges-block p.p-t-40 {
+        padding-top: 15px;
+    }
+
+    #advanteges-article .advanteges-block p {
+        font-size: 14px;
     }
 }
 
@@ -268,6 +285,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 footer {
     background-color: $back-grey;
     padding: 25px;
+    border-top: 2px solid #dbdada;
 }
 
 footer p {
@@ -359,3 +377,5 @@ footer a:hover {
 .p-top-15 {
     padding-top: 15px;
 }
+
+

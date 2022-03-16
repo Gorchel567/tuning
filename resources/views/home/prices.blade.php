@@ -3,7 +3,7 @@
         <h2 class="text-center article-header">Цены</h2>
         <div class="row">
             <div class="col-12 col-md-6">
-                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
+                <div class="card">
                     <p class="card-header">Lada</p>
                     <div class="row card-body min-price-height">
                         <div class="col-6 right-line">

@@ -27216,7 +27216,7 @@ readers do not read off random characters that represent icons */
 
 #nav-block nav a:before {
   content: "\f105";
-  font-family: "FontAwesome";
+  font: var(--fa-font-solid);
   color: #fe1a4c;
   margin-right: 7px;
 }
@@ -27352,11 +27352,15 @@ readers do not read off random characters that represent icons */
   color: white;
 }
 
+#advanteges-article .advanteges-block i {
+  color: #fe1a4c;
+}
+
 #advanteges-article .advanteges-block {
   border-radius: 20px;
   background-color: #f5f5f5;
   padding: 30px;
-  min-height: 250px;
+  min-height: 300px;
   margin-bottom: 15px;
   background-size: cover;
 }
@@ -27364,6 +27368,10 @@ readers do not read off random characters that represent icons */
 #advanteges-article .advanteges-block p {
   padding-top: 15px;
   margin-top: 15px;
+}
+
+#advanteges-article .advanteges-block p.p-t-40 {
+  padding-top: 40px;
 }
 
 #advanteges-article .advanteges-block.black {
@@ -27394,11 +27402,20 @@ readers do not read off random characters that represent icons */
 
   #advanteges-article .advanteges-block {
     padding: 20px 10px;
+    min-height: 150px;
   }
 
   .article-block {
     padding-top: 50px;
     padding-bottom: 30px;
+  }
+
+  #advanteges-article .advanteges-block p.p-t-40 {
+    padding-top: 15px;
+  }
+
+  #advanteges-article .advanteges-block p {
+    font-size: 14px;
   }
 }
 .article-header {
@@ -27458,6 +27475,7 @@ readers do not read off random characters that represent icons */
 footer {
   background-color: #f5f5f5;
   padding: 25px;
+  border-top: 2px solid #dbdada;
 }
 
 footer p {
