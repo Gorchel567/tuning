@@ -3,34 +3,39 @@
         <h2 class="text-center article-header">Преимущества</h2>
         <div class="row">
             <div class="col-6 col-md-4 advanteges-wrapper">
-                <div></div>
-                <div class="advanteges-block" style="background-image: url('/images/advanteges-one.png');">
-                    Бесплатный выезд
+                <div class="advanteges-block black">
+                    <i class="fa-solid fa-car-side fa-lg"></i>
+                    <p class="p-t-40">Бесплатный выезд</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 advanteges-wrapper">
-                <div class="advanteges-block" style="background-image: url('/images/advanteges-one.jpeg');">
-                    Без вреда для двигателя
+                <div class="advanteges-block black">
+                    <i class="fa-solid fa-gears fa-lg"></i>
+                    <p>Без вреда для двигателя</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 advanteges-wrapper">
-                <div class="advanteges-block" style="background-image: url('/images/advanteges-one-one.png');">
-                    Снижение расхода топлива до 10%
+                <div class="advanteges-block black">
+                    <i class="fa-solid fa-gas-pump fa-lg"></i>
+                    <p>Снижение расхода топлива до 10%</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 advanteges-wrapper">
-                <div class="advanteges-block" style="background-image: url('/images/advanteges-one-one.png')";>
-                    Увеличение мозности до 30%
+                <div class="advanteges-block black">
+                    <i class="fa-solid fa-gauge-high fa-lg"></i>
+                    <p class="p-t-40">Увеличение мощности до 30%</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 advanteges-wrapper">
-                <div class="advanteges-block" style="background-image: url('/images/advanteges-one-one.png')";>
-                    Увеличение крутящего момента на низких оборотах
+                <div class="advanteges-block black">
+                    <i class="fa-solid fa-bolt fa-lg"></i>
+                    <p>Увеличение крутящего момента на низких оборотах</p>
                 </div>
             </div>
             <div class="col-6 col-md-4 advanteges-wrapper">
-                <div class="advanteges-block" style="background-image: url('/images/advanteges-one-one.png')";>
-                    Сглаживание провалов при переключениях
+                <div class="advanteges-block black">
+                    <i class="fa-solid fa-car-crash fa-lg"></i>
+                    <p>Сглаживание провалов при переключениях</p>
                 </div>
             </div>
         </div>

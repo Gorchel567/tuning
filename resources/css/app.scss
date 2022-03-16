@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
-@import "~font-awesome/scss/font-awesome";
+@import '~@fortawesome/fontawesome-free/css/fontawesome';
+@import '~@fortawesome/fontawesome-free/css/regular';
+@import '~@fortawesome/fontawesome-free/css/solid';
+@import '~@fortawesome/fontawesome-free/css/brands';
 @import '~bootstrap-icons';
 
 $logo-red-color: #fe1a4c;
@@ -19,7 +22,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 
 #nav-block nav a:before {
     content: "\f105";
-    font-family: "FontAwesome";
+    font: var(--fa-font-solid);
     color: $logo-red-color;
     margin-right: 7px;
 }
@@ -149,10 +152,6 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
     border-right: 3px solid $logo-red-color-opacity;
 }
 
-#advanteges-article {
-    background-color: $back-grey;
-}
-
 #advanteges-article .advanteges-wrapper {
     padding: 15px;
     font-size: 30px;
@@ -160,13 +159,30 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
     color: white;
 }
 
+#advanteges-article .advanteges-block i {
+    color: #fe1a4c;
+}
+
 #advanteges-article .advanteges-block {
     border-radius: 20px;
-    background-color: #ffffff;
+    background-color: $back-grey;
     padding: 30px;
-    min-height: 150px;
+    min-height: 300px;
     margin-bottom: 15px;
     background-size: cover;
+}
+
+#advanteges-article .advanteges-block p {
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+#advanteges-article .advanteges-block p.p-t-40 {
+    padding-top: 40px;
+}
+
+#advanteges-article .advanteges-block.black {
+    color: black;
 }
 
 .article-block {
@@ -194,17 +210,30 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 
     #advanteges-article .advanteges-block {
         padding: 20px 10px;
+        min-height: 150px;
     }
 
     .article-block {
         padding-top: 50px;
         padding-bottom: 30px;
     }
+
+    #advanteges-article .advanteges-block p.p-t-40 {
+        padding-top: 15px;
+    }
+
+    #advanteges-article .advanteges-block p {
+        font-size: 14px;
+    }
 }
 
 .article-header {
     font-size: 40px;
     margin-bottom: 50px;
+}
+
+#prices-article {
+    background-color: $back-grey;
 }
 
 #prices-article .card {
@@ -256,6 +285,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
 footer {
     background-color: $back-grey;
     padding: 25px;
+    border-top: 2px solid #dbdada;
 }
 
 footer p {
@@ -387,3 +417,5 @@ footer a:hover {
 .p-top-15 {
     padding-top: 15px;
 }
+
+
