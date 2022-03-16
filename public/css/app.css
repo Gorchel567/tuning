@@ -27214,7 +27214,7 @@ readers do not read off random characters that represent icons */
   width: 100%;
 }
 
-#nav-block nav a:before {
+.nav-before-icon a:before {
   content: "\f105";
   font: var(--fa-font-solid);
   color: #fe1a4c;
@@ -27536,6 +27536,81 @@ footer a:hover {
   font-weight: 700;
 }
 
+.nav-icons {
+  margin-left: 250px;
+  justify-content: center;
+}
+
+.nav-info {
+  margin-top: 10px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.nav-street {
+  margin-bottom: 0px;
+}
+
+#main-navbar .nav-date {
+  margin-left: 150px;
+  margin-right: 100px;
+  text-align: center;
+}
+#main-navbar .nav-date p {
+  margin-bottom: 0px;
+}
+
+#main-navbar .nav-link:hover i {
+  color: #fe1a4c;
+}
+
+#main-navbar .b-nav-date {
+  text-align: center;
+  font-size: 20px;
+}
+#main-navbar .b-nav-date a {
+  color: black;
+}
+#main-navbar .b-nav-date a:hover {
+  color: #fe1a4c;
+}
+
+#main-navbar .nav-button {
+  padding-right: 50px;
+}
+
+@media (max-width: 992px) {
+  #main-navbar .nav-button {
+    padding-right: 0px;
+    margin-top: 15px;
+  }
+
+  #main-navbar .nav-icons {
+    margin-left: 0px;
+    flex-direction: inherit;
+  }
+
+  #main-navbar .nav-icons li {
+    margin-right: 20px;
+  }
+
+  #main-navbar .nav-date {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #main-navbar .b-nav-date {
+    font-size: 16px;
+  }
+}
+.nav-city {
+  font-size: 20px;
+}
+
+.nav-address {
+  text-align: center;
+}
+
 .news-block img {
   border-radius: 10px 0px 0px 10px;
 }
@@ -27566,4 +27641,12 @@ footer a:hover {
 
 .p-top-15 {
   padding-top: 15px;
+}
+
+.mg-0 {
+  margin: 0px;
+}
+
+.w-200 {
+  width: 200px;
 }
