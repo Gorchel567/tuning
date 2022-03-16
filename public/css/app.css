@@ -27568,6 +27568,14 @@ footer a:hover {
   font-weight: 700;
 }
 
+#prices-table .text-bold.grey {
+  background-color: #f5f5f5;
+}
+
+#prices-table #mobile-table {
+  font-size: 12px;
+}
+
 .nav-icons {
   justify-content: center;
 }

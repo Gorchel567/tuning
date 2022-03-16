@@ -9,6 +9,7 @@ $logo-red-color: #fe1a4c;
 $back-grey: #f5f5f5;
 $light-black: #5f6265;
 $logo-red-color-opacity: rgba(254,26,76,0.5);
+$logo-red-light-color-opacity: rgba(255,158,179,0.5);
 $logo-white-color-opacity: rgba(255,255,255,0.5);
 
 #nav-block {
@@ -382,6 +383,14 @@ footer a:hover {
 
 #prices-table .text-bold {
     font-weight: 700;
+}
+
+#prices-table .text-bold.grey {
+    background-color: $back-grey;
+}
+
+#prices-table #mobile-table {
+    font-size: 12px;
 }
 
 .nav-icons {
