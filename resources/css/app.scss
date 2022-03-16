@@ -20,7 +20,7 @@ $logo-white-color-opacity: rgba(255,255,255,0.5);
     width: 100%;
 }
 
-#nav-block nav a:before {
+.nav-before-icon a:before {
     content: "\f105";
     font: var(--fa-font-solid);
     color: $logo-red-color;
@@ -391,8 +391,32 @@ footer a:hover {
     padding-right: 50px;
 }
 
-.nav-city {
+@media (max-width: 992px) {
+    #main-navbar .nav-button {
+        padding-right: 0px;
+        margin-top: 15px;
+    }
 
+    #main-navbar .nav-icons {
+        margin-left: 0px;
+        flex-direction: inherit;
+    }
+
+    #main-navbar .nav-icons li {
+        margin-right: 20px;
+    }
+
+    #main-navbar .nav-date {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #main-navbar .b-nav-date {
+        font-size: 16px;
+    }
+}
+
+.nav-city {
     font-size: 20px;
 }
 .nav-address {
@@ -433,5 +457,9 @@ footer a:hover {
 
 .mg-0 {
     margin: 0px;
+}
+
+.w-200 {
+    width: 200px;
 }
 
