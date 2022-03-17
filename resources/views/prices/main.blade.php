@@ -148,7 +148,9 @@
                         <td colspan="3" class="text-center text-bold grey">Lada</td>
                     </tr>
                     <tr>
-                        <td rowspan="3" class="text-bold">Чип-Тюнинг</td>
+                        <td colspan="2" class="text-bold text-center">Чип-Тюнинг</td>
+                    </tr>
+                    <tr>
                         <td>Vesta/Xray/Largus</td>
                         <td>2490р</td>
                     </tr>
