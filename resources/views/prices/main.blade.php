@@ -140,10 +140,10 @@
                 </table>
                 <table class="table table-condensed table-bordered d-md-none" id="mobile-table">
                     <tr>
-                        <td colspan="3" class="text-center text-bold">Прайс</td>
+                        <td colspan="2" class="text-center text-bold">Прайс</td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="text-center text-bold grey">Lada</td>
+                        <td colspan="2" class="text-center text-bold grey">Lada</td>
                     </tr>
                     <tr>
                         <td colspan="2" class="text-bold text-center">Чип-Тюнинг</td>
