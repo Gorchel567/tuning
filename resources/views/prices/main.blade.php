@@ -292,9 +292,8 @@
     </div>
 
     <hr>
-    <div class="container ">
-        <p id="prices-id" class="prices-info">Другие модели и марки уточняйте по телефону:<a href="tel:88129805866">
-                8 (812) 980-58-66</a></p>
+    <div class="container">
+        <p id="prices-id" class="prices-info">Другие модели и марки уточняйте по телефону:<a href="tel:88129805866">8 (812) 980-58-66</a></p>
     </div>
 
 @overwrite
