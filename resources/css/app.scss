@@ -513,6 +513,18 @@ footer a:hover {
     }
 }
 
+#reviews-article {
+    .review-logo {
+        border-radius: 50px;
+    }
+
+    .review-date {
+        color: #787878;
+        float: right;
+        font-size: 14px;
+    }
+}
+
 .p-top-15 {
     padding-top: 15px;
 }
