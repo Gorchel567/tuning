@@ -28306,6 +28306,10 @@ readers do not read off random characters that represent icons */
   padding-bottom: 10px;
 }
 
+#main-navbar-substrate {
+  height: 70px;
+}
+
 #nav-block img {
   width: 100%;
 }
@@ -28438,7 +28442,7 @@ readers do not read off random characters that represent icons */
 }
 
 #prices-article .right-line {
-  border-right: 3px solid rgba(254, 26, 76, 0.5);
+  border-right: 3px solid #5f6265;
 }
 
 #advanteges-article .advanteges-wrapper {
@@ -28524,22 +28528,31 @@ readers do not read off random characters that represent icons */
 }
 
 #prices-article .card {
-  color: white;
   margin-bottom: 15px;
 }
 
 #prices-article .card-header {
-  background-color: rgba(255, 255, 255, 0.5);
   color: #242324;
   font-weight: 800;
   font-size: 25px;
+  min-height: 110px;
+}
+#prices-article .card-header img {
+  width: 80px;
+}
+#prices-article .card-header img.medium-logo {
+  width: 120px;
+}
+#prices-article .card-header img.big-logo {
+  width: 150px;
 }
 
 #prices-article .card-footer {
-  border-top: 3px solid rgba(254, 26, 76, 0.5);
+  border-top: 3px solid #5f6265;
   font-size: 25px;
   padding-top: 10px;
   font-weight: 900;
+  background-color: white;
 }
 
 #prices-article .card-body p {
@@ -28552,8 +28565,27 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 992px) {
+  .article-header {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .article-block {
+    padding-top: 20px;
+  }
+
   #prices-article .card-header {
     font-size: 20px;
+    min-height: 80px;
+  }
+  #prices-article .card-header img {
+    width: 40px;
+  }
+  #prices-article .card-header img.medium-logo {
+    width: 80px;
+  }
+  #prices-article .card-header img.big-logo {
+    width: 110px;
   }
 
   #prices-article .card-body p {
@@ -28632,8 +28664,15 @@ footer a:hover {
   font-weight: 700;
 }
 
+#prices-table .text-bold.grey {
+  background-color: #f5f5f5;
+}
+
+#prices-table #mobile-table {
+  font-size: 12px;
+}
+
 .nav-icons {
-  margin-left: 250px;
   justify-content: center;
 }
 
@@ -28645,6 +28684,10 @@ footer a:hover {
 
 .nav-street {
   margin-bottom: 0px;
+}
+
+#main-navbar {
+  border-bottom: 2px solid #dbdada;
 }
 
 #main-navbar .nav-date {
@@ -28717,10 +28760,11 @@ footer a:hover {
   background-color: #f5f5f5;
 }
 
-.news-block > .col {
-  padding-left: 0px;
+@media (min-width: 992px) {
+  .news-block > .col {
+    padding-left: 0px;
+  }
 }
-
 .news-block a {
   text-decoration: none;
   color: black;
@@ -28732,6 +28776,24 @@ footer a:hover {
 
 .news-block .news-block-date {
   color: #fe1a4c;
+  font-size: 14px;
+}
+
+#news-view-img {
+  margin: 15px 0px;
+}
+
+@media (max-width: 992px) {
+  #news-view-img {
+    padding: 0px;
+  }
+}
+#reviews-article .review-logo {
+  border-radius: 50px;
+}
+#reviews-article .review-date {
+  color: #787878;
+  float: right;
   font-size: 14px;
 }
 
@@ -28747,7 +28809,12 @@ footer a:hover {
   width: 200px;
 }
 
+<<<<<<< HEAD
 .prices-info {
   text-align: center;
   font-size: 20px;
+=======
+.p-t-20 {
+  padding-top: 20px;
+>>>>>>> d5e0e06c984c4e5a4c89a56c4314bfb92ae28bc5
 }

@@ -25,6 +25,10 @@ class HomeController extends Controller
      */
     public function send(Request $request)
     {
+        $msg = "ФИО: ".$request->get('name')."\n\r";
+        $msg .= "Телефон: ".$request->get('phone')."\n\r";
+
+        mail(env('MAIL_TO_ADDRESS'), "Заявка с сайта chipograf.ru", $msg, "Content-Type: text/plain; charset=utf-8\r\nContent-Transfer-Encoding: 8bit");
         return redirect('/');
     }
 }

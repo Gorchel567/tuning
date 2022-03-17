@@ -138,8 +138,6 @@
                         <td>от 5000р</td>
                     </tr>
                 </table>
-
-
                 <table class="table table-condensed table-bordered d-md-none" id="mobile-table">
                     <tr>
                         <td colspan="3" class="text-center text-bold">Прайс</td>
@@ -163,7 +161,9 @@
                         <td>3490р</td>
                     </tr>
                     <tr>
-                        <td rowspan="4" class="text-bold">Дополнительные услуги</td>
+                        <td colspan="2" class="text-bold text-center">Дополнительные услуги</td>
+                    </tr>
+                    <tr>
                         <td>Активация функций</td>
                         <td>от 500р</td>
                     </tr>
