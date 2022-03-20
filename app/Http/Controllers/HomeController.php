@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Helpers\TelegramBot;
 
 /**
  * Class HomeController
@@ -25,10 +26,14 @@ class HomeController extends Controller
      */
     public function send(Request $request)
     {
-        $msg = "ФИО: ".$request->get('name')."\n\r";
+        $chatId = env('TELEGRAM_CHAT_TOKEN');
+
+        $msg = "Заявка с сайта chipograf.ru\r\n";
+        $msg .= "ФИО: ".$request->get('name')."\n\r";
         $msg .= "Телефон: ".$request->get('phone')."\n\r";
 
-        mail(env('MAIL_TO_ADDRESS'), "Заявка с сайта chipograf.ru", $msg, "Content-Type: text/plain; charset=utf-8\r\nContent-Transfer-Encoding: 8bit");
+        TelegramBot::send($chatId, $msg);
+
         return redirect('/');
     }
 }

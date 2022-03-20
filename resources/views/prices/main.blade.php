@@ -39,7 +39,7 @@
                     </tr>
                     <tr>
                         <td>Установка прошивки ABS от Vesta Sport</td>
-                        <td>от 1990р</td>
+                        <td>1990р</td>
                     </tr>
                     <tr>
                         <td colspan="3" class="text-center text-bold grey">Renault</td>
@@ -80,11 +80,11 @@
                     <tr>
                         <td rowspan="6" class="text-bold">Чип-Тюнинг</td>
                         <td>Rio/Solaris/Accent</td>
-                        <td>от 3490р до 8490р</td>
+                        <td>от 2490р до 4490р</td>
                     </tr>
                     <tr>
                         <td>Creta 1.6/2.0</td>
-                        <td>от 2990р до 4490р</td>
+                        <td>3990р/8990р</td>
                     </tr>
                     <tr>
                         <td>Ceed/Cerato/Elantra 1.6</td>
@@ -92,7 +92,7 @@
                     </tr>
                     <tr>
                         <td>Ceed/Cerato/Elantra 2.0</td>
-                        <td>от 3490р до 7490р</td>
+                        <td>от 3490р до 8990р</td>
                     </tr>
                     <tr>
                         <td>Sonata/Optima до 2017</td>
@@ -100,7 +100,7 @@
                     </tr>
                     <tr>
                         <td>Sonata/Optima/K5 с 2017</td>
-                        <td>7490р</td>
+                        <td>8990р</td>
                     </tr>
                     <tr>
                         <td rowspan="2" class="text-bold">Дополннительные услуги</td>
@@ -177,7 +177,7 @@
                     </tr>
                     <tr>
                         <td>Установка прошивки ABS от Vesta Sport</td>
-                        <td>от 1990р</td>
+                        <td>1990р</td>
                     </tr>
                     <tr>
                         <td colspan="2" class="text-center text-bold grey">Renault</td>
@@ -224,11 +224,11 @@
                     </tr>
                     <tr>
                         <td>Rio/Solaris/Accent</td>
-                        <td>от 3490р до 8490р</td>
+                        <td>от 2490р до 4490р</td>
                     </tr>
                     <tr>
                         <td>Creta 1.6/2.0</td>
-                        <td>от 2990р до 4490р</td>
+                        <td>3990р/8990р</td>
                     </tr>
                     <tr>
                         <td>Ceed/Cerato/Elantra 1.6</td>
@@ -236,7 +236,7 @@
                     </tr>
                     <tr>
                         <td>Ceed/Cerato/Elantra 2.0</td>
-                        <td>от 3490р до 7490р</td>
+                        <td>от 3490р до 8990р</td>
                     </tr>
                     <tr>
                         <td>Sonata/Optima до 2017</td>
@@ -244,7 +244,7 @@
                     </tr>
                     <tr>
                         <td>Sonata/Optima/K5 с 2017</td>
-                        <td>7490р</td>
+                        <td>8990р</td>
                     </tr>
                     <tr>
                         <td colspan="2" class="text-bold text-center">Дополнительные услуги</td>
