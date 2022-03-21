@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Questions;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Review;
@@ -16,10 +17,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        Review::query()->delete();
+
         $reviews = [
-            ['url' => '/images/advanteges-one.jpeg', 'title' => "Lorem ipsum dolor sit amet", 'text' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."],
-            ['url' => '/images/advanteges-one.jpeg', 'title' => "Далеко-далеко за словесными горами", 'text' => "Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Вдали от всех живут они в буквенных домах на берегу Семантика большого языкового океана. Маленький ручеек Даль журчит по всей стране и обеспечивает ее всеми необходимыми правилами. Эта парадигматическая страна, в которой жаренные члены предложения залетают прямо в рот. Даже всемогущая пунктуация не имеет власти над рыбными текстами, ведущими безорфографичный образ жизни. Однажды одна маленькая строчка рыбного текста по имени Lorem ipsum решила выйти в большой мир грамматики. Великий Оксмокс предупреждал ее о злых запятых, диких знаках вопроса и коварных точках с запятой, но текст не дал сбить себя с толку. Он собрал семь своих заглавных букв, подпоясал инициал за пояс и пустился в дорогу. Взобравшись на первую вершину курсивных гор, бросил он последний взгляд назад, на силуэт своего родного города Буквоград, на заголовок деревни Алфавит и на подзаголовок своего переулка Строчка. Грустный риторический вопрос скатился по его щеке и он продолжил свой путь. По дороге встретил текст рукопись. Она предупредила его: «В моей стране все переписывается по несколько раз. Единственное, что от меня осталось, это приставка «и». Возвращайся ты лучше в свою безопасную страну». Не послушавшись рукописи, наш текст продолжил свой путь. Вскоре ему повстречался коварный составитель"],
+            ['url' => '/images/reviews/one.jpeg', 'title' => "Роман Дудин", 'text' => "Выиграл прошивку в конкурсе! Автомобиль лада веста 1.6 МТ. После прошивки авто не узнать! Пропали провалы при переключениях, увеличилась динамика при разгоне. Большое спасибо!", "created_at" => "2022-03-07 20:23:00"],
+            ['url' => '/images/reviews/one.jpeg', 'title' => "Роман Дудин", 'text' => "Выиграл прошивку в конкурсе! Автомобиль лада веста 1.6 МТ. После прошивки авто не узнать! Пропали провалы при переключениях, увеличилась динамика при разгоне. Большое спасибо!", "created_at" => "2022-03-07 20:23:00"],
         ];
 
         foreach ($reviews as $review) {
@@ -29,6 +31,8 @@ class DatabaseSeeder extends Seeder
             $reviewModel->text = $review['text'];
             $reviewModel->save();
         }
+
+        News::query()->delete();
 
         $news = [
             ['url' => '/images/advanteges-one.jpeg', 'title' => "Lorem ipsum dolor sit amet", 'text' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet."],
@@ -41,6 +45,31 @@ class DatabaseSeeder extends Seeder
             $newsModel->title = $record['title'];
             $newsModel->text = $record['text'];
             $newsModel->save();
+        }
+
+        Questions::query()->delete();
+
+        $questions = [
+            ['title' => "Что такое чип-тюнинг?", 'text' => "Чип-Тюнинг- это установка в блок управления двигателем прошивки с измененными параметрами, за счет которых меняется поведение автомобиля."],
+            ['title' => "Что дает чип-тюнинг?", 'text' => "Чип-Тюнинг автомобиля увеличивает мощность, улучшает отклик на педаль газа, добавляет крутящий момент и смещает тягу к более низким оборотам, тем самым улучшая динамические показатели автомобиля. Также исправляются некоторые заводские недоработки в виде «подергиваний», провалов, позднего включения вентилятора охлаждения и т.д."],
+            ['title' => "Как это сказывается на ресурсе двигателя?", 'text' => "Мы используем прошивки только от проверенных авторов (ММК, Челяба, Паулюс, RSW и др.), поэтому на ресурс это никак не скажется."],
+            ['title' => "Влияет ли прошивка на расход топлива?", 'text' => "Владельцы хотят сократить расход топлива, в большинстве случаев его не снизить, но и больше он не станет."],
+            ['title' => "Может ли прошивка «слететь»?", 'text' => "Прошивка- это файл, как правило в формате BIN, который записывается в память блока управления. Пока прошивку не удалят намеренно, слететь она не может т.к. хранится в области памяти FLASH. "],
+            ['title' => "Что такое прошивка Евро-2?", 'text' => "Это прошивка, в которой отключен контроль за катализатором и нижний датчик кислорода. Обычно устанавливается после удаления катализатора или при выходе из строя нижнего датчика кислорода."],
+            ['title' => "На сколько увеличивается мощность?", 'text' => "На атмосферном двигателе прибавка 8-9% , если автомобиль не задушен «под налог». На турбомоторах прибавка 15-25%, в зависимости от конкретного двигателя. "],
+            ['title' => "Даете ли вы гарантию?", 'text' => "Да, при обращении вам выдается кассовый чек на выполненные работы и информация в печатном виде о дате проведении работ, версии и авторе прошивки.
+Гарантия составляет 30 дней, если вам что-то не понравится, мы возвращаем деньги. В процессе прошивки вся ответственность за блок управления лежит на мастере."],
+            ['title' => "В чем разница между прошивками?", 'text' => "Мы подбираем автора прошивки учитывая манеру вождения и условия эксплуатации вашего автомобиля, а также в зависимости от марки, модели, года выпуска, типа двс и т.д.  Прошивки отличаются между собой настройками педали и коэффициентами работы систем в тех или иных режимах."],
+            ['title' => "Какими автомобилями вы занимаетесь?", 'text' => "Мы занимаемся прошивкой LADA, Renault, Nissan, KIA, Hyundai и некоторыми автомобилями группы VAG, распространенными на рынке РФ. "],
+            ['title' => "Почему нужно обратиться именно к нам?", 'text' => "Мы не работаем со всеми марками, а занимаемся только автомобилями концернов Renault/Nissan, Hyundai/Kia и моделями группы VAG, поэтому можем предложить вам отличное качество по разумной цене, а также выполнить все работы в кратчайший срок. "],
+            ['title' => "Есть ли у вас выезд специалиста?", 'text' => "Да, выезд по Санкт-Петербургу бесплатный, также можем приехать и в ближайшие города-спутники."],
+        ];
+
+        foreach ($questions as $record) {
+            $questionsModel = new Questions();
+            $questionsModel->title = $record['title'];
+            $questionsModel->text = $record['text'];
+            $questionsModel->save();
         }
     }
 }

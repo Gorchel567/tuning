@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="card">
-                    <p class="card-header">Lada</p>
+                    <p class="card-header"><img src="/images/brands/lada.png" alt="Lada" class="medium-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-6 right-line">
                             <p>Vesta</p>
@@ -26,8 +26,8 @@
                 </div>
             </div>
             <div class="col-12 col-md-6">
-                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
-                    <p class="card-header">Renault</p>
+                <div class="card">
+                    <p class="card-header p-t-20"><img src="/images/brands/renault.png" alt="Renault"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-6 right-line">
                             <p>Duster</p>
@@ -50,8 +50,8 @@
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
-                    <p class="card-header">Hyundai</p>
+                <div class="card" >
+                    <p class="card-header p-t-20"><img src="/images/brands/hyundai.png" alt="Hyundai" class="medium-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Solaris</p>
@@ -61,14 +61,14 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>2490р</span>
+                            <span>от 2490р</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
-                    <p class="card-header">Kia</p>
+                <div class="card" >
+                    <p class="card-header"><img src="/images/brands/kia.png" alt="Kia" class="big-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Rio</p>
@@ -79,14 +79,14 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>2490р</span>
+                            <span>от 2490р</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
-                    <p class="card-header">Volkswagen</p>
+                <div class="card" >
+                    <p class="card-header"><img src="/images/brands/vw.png" alt="Volkswagen"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Polo</p>
@@ -97,14 +97,14 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>2990р</span>
+                            <span>от 2990р</span>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-6 col-md-3">
-                <div class="card" style="background-image: url('/images/advanteges-two.png'); background-size: cover">
-                    <p class="card-header">Skoda</p>
+                <div class="card" >
+                    <p class="card-header"><img src="/images/brands/scoda.png" alt="Skoda" class="medium-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Rapid</p>
@@ -114,7 +114,7 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>2990р</span>
+                            <span>от 2990р</span>
                         </div>
                     </div>
                 </div>
