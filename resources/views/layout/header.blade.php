@@ -16,7 +16,7 @@
                     <a href="/reviews" class="nav-link">Отзывы</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/#" class="nav-link">Вопросы и ответы</a>
+                    <a href="/questions" class="nav-link">Вопросы и ответы</a>
                 </li>
                 <li class="nav-item">
                     <a href="#footer" class="nav-link">Контакты</a>

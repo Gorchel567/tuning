@@ -27729,3 +27729,20 @@ footer a:hover {
 .p-t-20 {
   padding-top: 20px;
 }
+
+#questionArticle {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#questionArticle .accordion-button::after {
+  content: "\f107";
+  font: var(--fa-font-solid);
+  color: #fe1a4c;
+  background-image: none;
+}
+
+#questionArticle .accordion-button:focus {
+  background-color: #f5f5f5;
+  color: #fe1a4c;
+}

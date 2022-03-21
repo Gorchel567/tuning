@@ -555,3 +555,20 @@ footer a:hover {
 .p-t-20 {
     padding-top: 20px;
 }
+
+#questionArticle {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#questionArticle .accordion-button::after {
+    content: "\f107";
+    font: var(--fa-font-solid);
+    color: $logo-red-color;
+    background-image: none;
+}
+
+#questionArticle .accordion-button:focus {
+    background-color: $back-grey;
+    color: $logo-red-color;
+}

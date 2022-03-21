@@ -8,7 +8,7 @@
                     Статьи
                 </a><a href="/reviews" class="">
                     Отзывы
-                </a><a href="/#" class="">
+                </a><a href="/questions" class="">
                     Вопросы и ответы
                 </a><a href="#footer" class="">
                     Контакты
