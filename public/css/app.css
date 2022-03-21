@@ -27692,13 +27692,15 @@ footer a:hover {
     padding: 0px;
   }
 }
-#reviews-article .review-logo {
-  border-radius: 50px;
+#reviews-article {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-#reviews-article .review-date {
-  color: #787878;
-  float: right;
-  font-size: 14px;
+#reviews-article .review-block {
+  padding: 0px;
+}
+#reviews-article .review-block img {
+  border: 4px solid #f8f9fa;
 }
 
 .p-top-15 {

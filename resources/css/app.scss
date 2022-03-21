@@ -514,15 +514,25 @@ footer a:hover {
 }
 
 #reviews-article {
-    .review-logo {
-        border-radius: 50px;
-    }
+    padding-top: 50px;
+    padding-bottom: 50px;
 
-    .review-date {
-        color: #787878;
-        float: right;
-        font-size: 14px;
+    .review-block {
+        padding: 0px;
+
+        img {
+            border: 4px solid #f8f9fa;
+        }
     }
+    //.review-logo {
+    //    border-radius: 50px;
+    //}
+    //
+    //.review-date {
+    //    color: #787878;
+    //    float: right;
+    //    font-size: 14px;
+    //}
 }
 
 .p-top-15 {
@@ -572,3 +582,4 @@ footer a:hover {
     background-color: $back-grey;
     color: $logo-red-color;
 }
+

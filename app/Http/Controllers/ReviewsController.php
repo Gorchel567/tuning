@@ -18,9 +18,11 @@ class ReviewsController extends Controller
      */
     public function index(Request $request)
     {
-        $reviews = Review::select(['id', 'url', 'title', 'text', 'created_at'])
-            ->orderBy('created_at', 'desc')
-            ->simplePaginate(10);
+//        $reviews = Review::select(['id', 'url', 'title', 'text', 'created_at'])
+//            ->orderBy('created_at', 'desc')
+//            ->simplePaginate(10);
+
+        $reviews = array_diff(scandir(app()->basePath('public/images/reviews')), ['.', '..']);
 
         return view('reviews.main', [
             'reviews' => $reviews
