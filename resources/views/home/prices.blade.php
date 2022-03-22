@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="card">
-                    <p class="card-header"><img src="/images/brands/lada.png" alt="Lada" class="medium-logo"></p>
+                    <p class="card-header"><img src="/images/brands/lada.webp" alt="Lada" class="medium-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-6 right-line">
                             <p>Vesta</p>
@@ -27,7 +27,7 @@
             </div>
             <div class="col-12 col-md-6">
                 <div class="card">
-                    <p class="card-header p-t-20"><img src="/images/brands/renault.png" alt="Renault"></p>
+                    <p class="card-header p-t-20"><img src="/images/brands/renault.webp" alt="Renault"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-6 right-line">
                             <p>Duster</p>
@@ -51,7 +51,7 @@
             </div>
             <div class="col-6 col-md-3">
                 <div class="card" >
-                    <p class="card-header p-t-20"><img src="/images/brands/hyundai.png" alt="Hyundai" class="medium-logo"></p>
+                    <p class="card-header p-t-20"><img src="/images/brands/hyundai.webp" alt="Hyundai" class="medium-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Solaris</p>
@@ -68,7 +68,7 @@
             </div>
             <div class="col-6 col-md-3">
                 <div class="card" >
-                    <p class="card-header"><img src="/images/brands/kia.png" alt="Kia" class="big-logo"></p>
+                    <p class="card-header"><img src="/images/brands/kia.webp" alt="Kia" class="big-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Rio</p>
@@ -86,7 +86,7 @@
             </div>
             <div class="col-6 col-md-3">
                 <div class="card" >
-                    <p class="card-header"><img src="/images/brands/vw.png" alt="Volkswagen"></p>
+                    <p class="card-header"><img src="/images/brands/vw.webp" alt="Volkswagen"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Polo</p>
@@ -104,7 +104,7 @@
             </div>
             <div class="col-6 col-md-3">
                 <div class="card" >
-                    <p class="card-header"><img src="/images/brands/scoda.png" alt="Skoda" class="medium-logo"></p>
+                    <p class="card-header"><img src="/images/brands/scoda.webp" alt="Skoda" class="medium-logo"></p>
                     <div class="row card-body min-price-height">
                         <div class="col-12">
                             <p>Rapid</p>
