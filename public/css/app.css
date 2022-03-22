@@ -27236,7 +27236,7 @@ readers do not read off random characters that represent icons */
 }
 
 #banner-article {
-  background-image: url("/images/banner.png");
+  background-image: url("/images/banner.webp");
   min-height: 750px;
   background-size: cover;
 }
