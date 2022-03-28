@@ -18,10 +18,12 @@ class News extends Model
      */
     public function getShortText()
     {
-        if (strlen($this->text) > self::SHORT_TEXT_LENGTH) {
-            return substr($this->text, 0, self::SHORT_TEXT_LENGTH)."...";
+        $text = strip_tags($this->text);
+
+        if (strlen($text) > self::SHORT_TEXT_LENGTH) {
+            return substr($text, 0, self::SHORT_TEXT_LENGTH)."...";
         }
 
-        return $this->text;
+        return $text;
     }
 }
