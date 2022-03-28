@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" type="image/x-icon" href="/images/logo/favicon.ico">
     <meta property="og:image" content="/images/logo/og_logo.png" />
+    <meta property="og:title" content="Chipograf" />
+    <meta property="og:description" content="Чип Тюнинг Lada, Renault, Kia, Hyundai в СПБ" />
     <title>Chipograf</title>
 </head>
 <body>
