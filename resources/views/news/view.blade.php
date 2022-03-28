@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="container">
-        <p>{{$news->text}}</p>
+        <p>{!! $news->text !!}</p>
         <p>{{$news->created_at}}</p>
     </div>
 @overwrite
