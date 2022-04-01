@@ -10,7 +10,7 @@
     <meta property="og:image" content="/images/logo/og_logo.png" />
     <meta property="og:title" content="CHIPOGRAF - Чип Тюнинг Lada, Renault, Kia, Hyundai в СПБ" />
     <meta property="og:description" content="Чип Тюнинг Lada, Renault, Kia, Hyundai в СПБ" />
-    <title>Chipograf</title>
+    <title>CHIPOGRAF - Чип Тюнинг Lada, Renault, Kia, Hyundai в СПБ</title>
 </head>
 <body>
     @include('layout.header')
