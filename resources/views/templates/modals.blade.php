@@ -16,6 +16,10 @@
                         <label for="phone" class="text-center">Телефон</label>
                         <input type="text" name="phone" class="form-control black-input custom-input" value="" required="required">
                     </div>
+                    <div class="form-group">
+                        <input type="checkbox" name="personal_data" value="" required="required">
+                        <span>Я согласен на обработку <a href="/personal" target="_blank">персональных данных</a></span>
+                    </div>
                 </div>
                 <div class="modal-footer black-border">
                     <button type="button" class="btn black-btn custom-btn sm-btn" data-bs-dismiss="modal">Закрыть</button>

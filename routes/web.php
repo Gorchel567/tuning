@@ -21,3 +21,4 @@ Route::get('/news', 'App\Http\Controllers\NewsController@index');
 Route::get('/news/{id}', 'App\Http\Controllers\NewsController@view');
 Route::get('/prices', 'App\Http\Controllers\PriceController@index');
 Route::get('/questions','App\Http\Controllers\QuestionController@index');
+Route::get('/personal','App\Http\Controllers\PersonalController@index');
