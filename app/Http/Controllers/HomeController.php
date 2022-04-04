@@ -17,7 +17,14 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        return view('home.main');
+        $params = [];
+
+        if ($request->session()->has('status')) {
+            $params['success_modal'] = true;
+            $request->session()->forget('status');
+        }
+
+        return view('home.main', $params);
     }
 
     /**
@@ -33,6 +40,9 @@ class HomeController extends Controller
         $msg .= "Телефон: ".$request->get('phone')."\n\r";
 
         TelegramBot::send($chatId, $msg);
+        session(['response' => 'success']);
+
+        $request->session()->flash('status', 'Task was successful!');
 
         return redirect('/');
     }
