@@ -40,6 +40,11 @@ class NewsController extends Controller
             throw new NotFoundHttpException('News not found');
         }
 
-        return view('news.view', ['news' => $news]);
+        return view('news.view', [
+            'news' => $news,
+            'ogTitle' => $news->title,
+            'ogImage' => $news->url,
+            'ogDescription' => $news->text,
+        ]);
     }
 }

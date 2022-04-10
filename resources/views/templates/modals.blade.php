@@ -17,7 +17,7 @@
                         <input type="text" name="phone" class="form-control black-input custom-input" value="" required="required">
                     </div>
                     <div class="form-group">
-                        <input type="checkbox" name="personal_data" value="" required="required">
+                        <input type="checkbox" name="personal_data" value="" required="required" checked="checked">
                         <span>Я согласен на обработку <a href="/personal" target="_blank">персональных данных</a></span>
                     </div>
                 </div>
