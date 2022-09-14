@@ -20,8 +20,8 @@
                         </div>
                     </div>
                     <div class="row card-body">
-                        <div class="col-6 card-footer"><span>2490р</span></div>
-                        <div class="col-6 card-footer"><span>3490р</span></div>
+                        <div class="col-6 card-footer"><span>2990р</span></div>
+                        <div class="col-6 card-footer"><span>3990р</span></div>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>от 2490р</span>
+                            <span>от 2990р</span>
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>от 2490р</span>
+                            <span>от 2990р</span>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>от 2990р</span>
+                            <span>от 3500р</span>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@
                     </div>
                     <div class="row card-body">
                         <div class="col-12 card-footer">
-                            <span>от 2990р</span>
+                            <span>от 3500р</span>
                         </div>
                     </div>
                 </div>
