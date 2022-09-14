@@ -14,15 +14,15 @@
                     <tr>
                         <td rowspan="3" class="text-bold">Чип-Тюнинг</td>
                         <td>Vesta/Xray/Largus</td>
-                        <td>2490р</td>
+                        <td>2990р</td>
                     </tr>
                     <tr>
                         <td>Granta/Priora/Kalina</td>
-                        <td>2490р</td>
+                        <td>2990р</td>
                     </tr>
                     <tr>
                         <td>Niva/Chevrolet Niva/Niva Travel</td>
-                        <td>3490р</td>
+                        <td>3990р</td>
                     </tr>
                     <tr>
                         <td rowspan="4" class="text-bold">Дополнительные услуги</td>
@@ -80,7 +80,7 @@
                     <tr>
                         <td rowspan="6" class="text-bold">Чип-Тюнинг</td>
                         <td>Rio/Solaris/Accent</td>
-                        <td>от 2490р до 4490р</td>
+                        <td>от 2990р до 3990р</td>
                     </tr>
                     <tr>
                         <td>Creta 1.6/2.0</td>
@@ -96,11 +96,11 @@
                     </tr>
                     <tr>
                         <td>Sonata/Optima до 2017</td>
-                        <td>3490р</td>
+                        <td>3990р</td>
                     </tr>
                     <tr>
                         <td>Sonata/Optima/K5 с 2017</td>
-                        <td>8990р</td>
+                        <td>9990р</td>
                     </tr>
                     <tr>
                         <td rowspan="2" class="text-bold">Дополннительные услуги</td>
@@ -117,15 +117,15 @@
                     <tr>
                         <td rowspan="3" class="text-bold">Чип-Тюнинг</td>
                         <td>Rapid/Polo/Fabia</td>
-                        <td>от 2990р до 4490р</td>
+                        <td>от 3490р до 4490р</td>
                     </tr>
                     <tr>
                         <td>Octavia/Jetta/Golf</td>
-                        <td>от 3490р до 4990р</td>
+                        <td>от 3490р</td>
                     </tr>
                     <tr>
                         <td>Tiguan/Kodiaq</td>
-                        <td>от 4990р до 7990р</td>
+                        <td>от 4990р до 8990р</td>
                     </tr>
 
                     <tr>
@@ -150,15 +150,15 @@
                     </tr>
                     <tr>
                         <td>Vesta/Xray/Largus</td>
-                        <td>2490р</td>
+                        <td>2990р</td>
                     </tr>
                     <tr>
                         <td>Granta/Priora/Kalina</td>
-                        <td>2490р</td>
+                        <td>2990р</td>
                     </tr>
                     <tr>
                         <td>Niva/Chevrolet Niva/Niva Travel</td>
-                        <td>3490р</td>
+                        <td>3990р</td>
                     </tr>
                     <tr>
                         <td colspan="2" class="text-bold text-center">Дополнительные услуги</td>
@@ -224,7 +224,7 @@
                     </tr>
                     <tr>
                         <td>Rio/Solaris/Accent</td>
-                        <td>от 2490р до 4490р</td>
+                        <td>от 2990р до 3990р</td>
                     </tr>
                     <tr>
                         <td>Creta 1.6/2.0</td>
@@ -240,11 +240,11 @@
                     </tr>
                     <tr>
                         <td>Sonata/Optima до 2017</td>
-                        <td>3490р</td>
+                        <td>3990р</td>
                     </tr>
                     <tr>
                         <td>Sonata/Optima/K5 с 2017</td>
-                        <td>8990р</td>
+                        <td>9990р</td>
                     </tr>
                     <tr>
                         <td colspan="2" class="text-bold text-center">Дополнительные услуги</td>
@@ -265,15 +265,15 @@
                     </tr>
                     <tr>
                         <td>Rapid/Polo/Fabia</td>
-                        <td>от 2990р до 4490р</td>
+                        <td>от 3490р до 4490р</td>
                     </tr>
                     <tr>
                         <td>Octavia/Jetta/Golf</td>
-                        <td>от 3490р до 4990р</td>
+                        <td>от 3490р</td>
                     </tr>
                     <tr>
                         <td>Tiguan/Kodiaq</td>
-                        <td>от 4990р до 7990р</td>
+                        <td>от 4990р до 8990р</td>
                     </tr>
                     <tr>
                         <td colspan="2" class="text-bold text-center">Дополнительные услуги</td>
